@@ -8,7 +8,7 @@ public class Avaliacao {
 				return ((temp - 32) / 9) * 5;
 
 			case 2 :
-				return ((temp / 5) * 9) - 32;
+				return ((temp / 5) * 9) + 32;
 
 			case 3 :
 				return temp + 273;
@@ -17,10 +17,10 @@ public class Avaliacao {
 				return temp - 273;
 
 			case 5 :
-				return (((temp - 32) / 9) * 5) - 273;
+				return (((temp - 32) / 9) * 5) + 273;
 
 			case 6 :
-				return (((temp - 273) / 5) * 9) - 32;
+				return (((temp - 273) / 5) * 9) + 32;
 
 			default :				
 				return Double.NaN;
@@ -77,7 +77,7 @@ public class Avaliacao {
 				return ((temp - 32) / 9) * 5;
 
 			case 2 :
-				return ((temp / 5) * 9) - 32;
+				return ((temp / 5) * 9) + 32;
 
 			case 3 :
 				return temp + 273;
@@ -86,10 +86,10 @@ public class Avaliacao {
 				return temp - 273;
 
 			case 5 :
-				return (((temp - 32) / 9) * 5) - 273;
+				return (((temp - 32) / 9) * 5) + 273;
 
 			case 6 :
-				return (((temp - 273) / 5) * 9) - 32;
+				return (((temp - 273) / 5) * 9) + 32;
 
 			default :
 				System.err.println("\nEscolha um valor dentre 1-6 correspondendo com a conversão desejada\n");
