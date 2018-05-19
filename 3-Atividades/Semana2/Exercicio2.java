@@ -60,7 +60,7 @@ public class Exercicio2 {
         
         } else if (res.equals("nao") || res.equals("não") || res.equals("n")) {
         
-            return false
+            return false;
         
         } else {
         
