@@ -1,0 +1,16 @@
+Editores de texto desenvolvidos especialmente para programação geralmente colorem a sintaxe e maracam possíveis errors,
+porém não são tão poderosos como uma IDE (Interative Development Environment). IDEs sugerem múltiplas correções além de 
+corrigir automaticamente a maior parte dos errors, compilam e executam códigos em um clique e muito mais.
+
+Os editores de texto mais usados são Notepad++ (Windows) e NotePadQQ (Linux), os dois suportam uma gama impressionante
+de linguagens.
+
+Já as IDEs mais usadas são Eclipse, NetBeans, JDeveloper e IntelliJ. Todas são gratuitas, com exceção do IntelliJ, que
+curiosamente é bastante usado no mercado de trabalho. Todas podem ser utizadas para outras liguagens, menos o JDeveloper.
+
+Ainda há opções mais avançadas, Vim e Emacs, o Vim é mais simplista, com menos ferramentas. Já o Emacs é bem completo,
+não a ponto de ser uma IDE, mas comparável com uma. Ambos tem sua versão gráfica e são open-source.
+
+Mas qual escolher? Isso depende do seu objetivo. Se você quer maoir desempenho escolha uma IDE, caso queira mais minimalismo
+simplicidade escolha entre o Vim ou o Emacs (existe uma certa rincha entre os dois), caso esteja aprendendo e não quer ter
+muitas complicações escolha o NotePad++ ou NotePadQQ. Mas ainda há uma útima opção, o bom e velho bloco de notas!
