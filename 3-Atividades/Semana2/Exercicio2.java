@@ -21,8 +21,6 @@ import java.util.InputMismatchException;
 
 public class Exercicio2 {
 
-    static Scanner scan = new Scanner(System.in);
-    
     public static float rtod(float real, float tax) {
 
         return real/tax;
@@ -30,7 +28,9 @@ public class Exercicio2 {
     }
     
     public static void getInput() {
-        
+
+	Scanner scan = new Scanner(System.in);
+
         try {
         
             System.out.print("\nColoque o valor em real: ");
