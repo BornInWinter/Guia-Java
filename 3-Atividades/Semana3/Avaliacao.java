@@ -1,3 +1,8 @@
+// Pergunta 1 	E
+// Pergunta 2	C
+// Pergunta 3	C
+// Pergunta 4	E
+
 public class Avaliacao {
 
 	public static double convert(int conv, double temp) {
@@ -31,7 +36,7 @@ public class Avaliacao {
 
 	public static void main(String[] args) {
 
-		System.out.println(convert(1, 95.5));
+		System.out.println(convert(4, 10));
 
 	}
 
@@ -107,4 +112,31 @@ public class Avaliacao {
 		
 	}
 
-}*/
+} */
+
+/* Código da pergunta 4
+public class Avaliacao {
+
+	public static boolean primo(int n) {
+
+		int div = 2;
+
+		while (n > div) {
+
+			if (n % div == 0) return false;
+
+			div++;
+
+		}
+
+		return true;
+
+	}
+
+	public static void main(String[] args) {
+
+		System.out.println(primo(50));				
+
+	}
+
+} */
