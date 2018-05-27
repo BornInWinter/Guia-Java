@@ -1,20 +1,26 @@
-Muitos respondem essa pergunta simplesmente dizendo: "é para indicar que é um float", a resposta não está errada, só está incompleta. <br/>
+Muitos respondem essa pergunta simplesmente dizendo: 
+"é para indicar que é um float", a resposta não está errada, só está incompleta.
 
+Quando escrevemos um programa em Java temos sempre que indicar o final da linha com um ';', 
+isso porque o compilador não sabe onde a linha termina. Quando ele encotra o ponto e vírgula 
+ele começa a retornar do fim da linha até o começo:
 
+ lendo a linha
+-------------->
+float x = 1.5f;
+<--------------
+   compilando
 
-Quando escrevemos um programa em Java temos sempre que indicar o final da linha com um ';', isso porque o compilador não sabe onde a linha termina. Quando ele encotra o ponto e vírgula ele começa a retornar do fim da linha até o começo: <br/>
-<br/>
- lendo a linha <br/>
---------------> <br/>
-float x = 1.5f; <br/>
-<-------------- <br/>
-   compilando <br/>
-   <br/>
-O valor '1.5' pode ser tanto um float quanto um double, por padrão o compilador do Java (javac) lê como double, isso porque foi assim decidido pelos desenvoldedores do Java. <br/>
-Caso no momento da compilação não houvesse o 'f' no final da linha do exemplo o compilador iria compreender da seguinte forma: <br/>
-; 	- Final da linha <br/>
-1.5 	- Valor double <br/>
-=	- Operador de atribuição <br/>
-x	- Nome da variável <br/>
-float	- Tipo da variável <br/>
-Um valor double para uma variável do tipo float??? Então um erro de compilação é retornado para o programador. Para evitar isso colocamos um 'f' no final do valor float desejado :)
+O valor '1.5' pode ser tanto um float quanto um double, por padrão o compilador do Java (javac) 
+lê como double, isso porque foi assim decidido pelos desenvoldedores do Java.
+Caso no momento da compilação não houvesse o 'f' no final da linha do exemplo o compilador iria 
+compreender da seguinte forma:
+
+; 	- Final da linha
+1.5 	- Valor double
+=	- Operador de atribuição
+x	- Nome da variável
+float	- Tipo da variável
+
+Um valor double para uma variável do tipo float??? Então um erro de compilação é retornado para 
+o programador. Para evitar isso colocamos um 'f' no final do valor float desejado :)
