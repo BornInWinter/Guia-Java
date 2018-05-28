@@ -1,0 +1,46 @@
+Condição ternária é uma estrutura usada para reduzir a instrução 'if',
+eu pessoalmente uso bastante ela para deixar o código mais enxuto, ela
+consiste em 2 partes, a condição e os retornos se for verdadeiro ou falso.
+
+	<CONDIÇÃO> ? <VERDADEIRO> : <FALSO>
+
+Vamos analizar o seguinte examplo:
+
+	boolean b = 1 == 1 ? true : false;
+
+Isso seria equivalente a:
+
+	boolean b;
+	if (1 == 1) {
+		b = true;
+	} else {
+		b = false;
+	}
+
+A condição ternária pode ser usada em vários contextos, por exemplo:
+
+	System.out.println("A Terra é " + (programador == "burro" ? "plana" : "redonda"));
+
+Nesse caso caso a variável programador (do tipo String) seja definida 
+como "burro" a frase "A Terra é plana" será printada no console, caso
+contrário (qualquer valor diferente de burro) será printada a frase
+"A Terra é redonda".
+
+Podemos usar operadores booleanos também:
+
+	System.out.println("A Terra é " + (programador == "burro" || programador == "anta" ? "plana" : "redonda"));
+
+Podemos colocar dentro de outras instruções, até mesmo dentro de outra
+condição ternária:
+
+	if (Terra == (programador == "normal" ? "redonda" : (programador == "louco" ? "oca" : "plana")))
+		System.out.println("A Terra é " + Terra);
+
+Nesse último exemplo a variável Terra está sendo comparada com uma
+condição ternária que contém uma condição ternária, a lógica é a 
+seguinte, caso o programador seja "normal" retornará "resonda",
+caso contrário se o programador for "louco" retornará "oca", senão
+"plana". No final dependendo do programador a variável Terra será
+comparada com uma das Strings, porém apenas no caso do programador
+ser "normal" é que o console dirá algo, caso contrário é melhor
+não dizer nada :)
